@@ -95,7 +95,6 @@ class TasksListsTVC: UITableViewController {
         alertForAddAndUpdatesListTasks()
     }
     
-    // Делаем alertForAddAndUpdatesListTasks универсальной функцией
     private func alertForAddAndUpdatesListTasks(_ tasksList: TasksList? = nil) {
         let title = tasksList == nil ? "New List" : "Edit List"
         let message = "Please insert list name"
